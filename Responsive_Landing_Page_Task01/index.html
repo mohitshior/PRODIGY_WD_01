@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive landing page with an interactive fixed navigation menu.">
+  <title>NovaSpace | Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fixed Navigation -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Nova<span>Space</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">TASK-01 • PRODIGY INFOTECH</p>
+        <h1>Build. Create.<br><span>Make an Impact.</span></h1>
+        <p class="hero-text">
+          A modern responsive landing page with a fixed navigation bar,
+          smooth scrolling, hover interactions and scroll-based styling.
+        </p>
+        <div class="hero-actions">
+          <a href="#services" class="btn primary">Explore More</a>
+          <a href="#projects" class="btn secondary">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb"></div>
+        <div class="glass-card">
+          <span>01</span>
+          <h3>Interactive UI</h3>
+          <p>Responsive design powered by HTML, CSS & JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section light-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>Designed for every screen.</h2>
+        <p>
+          The layout automatically adapts to desktop, tablet and mobile
+          screens while keeping navigation simple and accessible.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="icon">01</div>
+          <h3>Responsive</h3>
+          <p>Flexible grids, spacing and typography create a smooth experience on any device.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">02</div>
+          <h3>Interactive</h3>
+          <p>Navigation reacts to hover, scroll and mobile menu interactions using JavaScript.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">03</div>
+          <h3>Modern</h3>
+          <p>A clean visual system with gradients, glass effects and subtle animations.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section dark-section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">SERVICES</p>
+        <h2>What this project demonstrates.</h2>
+      </div>
+      <div class="service-list">
+        <div class="service-item"><span>01</span><div><h3>Fixed Navigation</h3><p>The navigation remains visible while the page is scrolled.</p></div></div>
+        <div class="service-item"><span>02</span><div><h3>Scroll Detection</h3><p>JavaScript changes the navigation background and shadow after scrolling.</p></div></div>
+        <div class="service-item"><span>03</span><div><h3>Hover Effects</h3><p>Menu items change color and style when the pointer moves over them.</p></div></div>
+        <div class="service-item"><span>04</span><div><h3>Mobile Menu</h3><p>A hamburger menu provides a clean navigation experience on smaller screens.</p></div></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section light-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Simple ideas, polished execution.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <span>WEB DESIGN</span>
+          <h3>Landing Page</h3>
+          <p>Responsive single-page interface with interactive navigation.</p>
+        </article>
+        <article class="project-card">
+          <span>FRONTEND</span>
+          <h3>UI Components</h3>
+          <p>Reusable buttons, cards, sections and responsive layouts.</p>
+        </article>
+        <article class="project-card">
+          <span>JAVASCRIPT</span>
+          <h3>Interactions</h3>
+          <p>Scroll and hover behavior implemented without external libraries.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's build something useful.</h2>
+        <p>This project was created as a frontend development task using HTML, CSS and JavaScript.</p>
+        <a class="btn primary" href="#home">Back to Top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 NovaSpace • Responsive Landing Page • Task-01</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
